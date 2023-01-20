@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="mbusmaster.net">
+      <HintPath>..\..\..\..\..\Projects\Edwards Vacuum\Inputs\RegisHMI\DLLs\Modbus\Master\clr40\x64\mbusmaster.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

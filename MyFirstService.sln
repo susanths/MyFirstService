@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstService", "MyFirstService\MyFirstService.csproj", "{D01CDFB1-3073-478E-A027-16BAEECD580E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusDataCollector", "ModbusDataCollector\ModbusDataCollector.csproj", "{AD284384-AD88-4D0E-A191-088EC625EB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modbus", "Modbus\Modbus.csproj", "{A4B6069C-3C64-4698-9A2D-96D811C25B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01CDFB1-3073-478E-A027-16BAEECD580E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01CDFB1-3073-478E-A027-16BAEECD580E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01CDFB1-3073-478E-A027-16BAEECD580E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01CDFB1-3073-478E-A027-16BAEECD580E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD284384-AD88-4D0E-A191-088EC625EB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD284384-AD88-4D0E-A191-088EC625EB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD284384-AD88-4D0E-A191-088EC625EB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD284384-AD88-4D0E-A191-088EC625EB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B6069C-3C64-4698-9A2D-96D811C25B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B6069C-3C64-4698-9A2D-96D811C25B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B6069C-3C64-4698-9A2D-96D811C25B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B6069C-3C64-4698-9A2D-96D811C25B33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACE8387B-DDCD-4B0B-ACFC-CE5F9B800C0A}
+	EndGlobalSection
+EndGlobal
