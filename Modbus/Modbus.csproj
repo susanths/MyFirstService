@@ -14,6 +14,7 @@
   <ItemGroup>
     <Reference Include="mbusmaster.net">
       <HintPath>..\..\..\..\..\Projects\Edwards Vacuum\Inputs\RegisHMI\DLLs\Modbus\Master\clr40\x64\mbusmaster.net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
 

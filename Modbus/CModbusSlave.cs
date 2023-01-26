@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Modbus
 {
-    public class CModbusSlave
+    public class CModbusSlaveParameters
     {
         public string IPAddress { get; set; }
         public int Port { get; set; }
         public int SlaveAddress { get; set; }
+    }
+
+    public class CModbusDevice
+    {
+        
+        public CModbusSlaveParameters ModbusDevice { get; set; }
     }
 }
